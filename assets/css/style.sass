@@ -1,0 +1,237 @@
+/*SASS Code*/
+
+$pink-1: #EAAAA8
+$pink-2: #F1CCCA
+$pink-3: #C08C8A
+$pink-4: #D16BA5
+$pink-5: #FF6F91
+$yellow-1: #F9F871
+$white-1: #F9E7E7
+$black-1: #2B1F1F
+$brown-1: #AB7C7B
+$gray-1: #BDC3C7
+
+$noto-sans: "Noto Sans", sans-serif
+
+*
+    scroll-behavior: smooth
+
+iframe
+    height: 450px
+    width: 100%
+    left: 0
+    top: 0
+    border: 0
+
+.pink-1
+    background-color: $pink-5
+
+.pink-2
+    background-color: $pink-2
+
+.pink-3
+    background-color: $pink-3
+
+.white-1
+    background-color: $white-1
+
+.black-1
+    background-color: $black-1
+
+.white-text
+    color: $white-1
+
+.logo-m
+    background-color: $white-1
+    text-align: center
+    width: 120px
+    height: 45px
+
+.logo-d
+    position: relative
+    background-color: $white-1
+    text-align: center
+    width: 145px
+    height: 50px
+
+.text-muted
+    opacity: 0.75
+
+.header-quote-m
+    background-image: url("../images/apink-17.jpg"), linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(255, 111, 145, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+    background-blend-mode: overlay
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+#header-quote-d
+    background-image: url("../images/apink-17.jpg"), linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(255, 111, 145, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+    background-blend-mode: overlay
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+.parallax
+    background-image: url("../images/apink-17.jpg"), linear-gradient(to bottom right,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(255, 111, 145, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+    height: 700px
+    background-attachment: fixed
+    background-blend-mode: overlay
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+.carousel-caption
+    padding-bottom: 100px
+
+.carousel-caption p
+    font-size: 100px
+    font-weight: 700
+
+.quote-left
+    border-left: 5px solid gray
+    font-weight: 700
+    font-family: "Dancing Script", cursive
+    font-size: 60px
+
+.quote-right
+    border-right: 5px solid gray
+    font-weight: 700
+    font-family: "Dancing Script", cursive
+    font-size: 60px
+
+h2
+    font-family: "Montserrat", sans-serif
+    font-weight: 600
+    border-bottom: 2px solid white
+
+h1
+    font-family: "Montserrat", sans-serif
+    font-weight: 600
+    border-bottom: 2px solid black
+    color: black
+
+.zoom
+    transition: transform 0.2s
+
+.zoom:hover
+    transform: scale(1.1)
+    z-index: 2
+
+.mask
+    position: relative
+    width: 100%
+
+.img-member
+    display: block
+    width: 100%
+    height: auto
+    object-fit: cover
+
+.card
+    border-style: none
+    display: block
+    width: 100%
+    height: auto
+
+#quote-container
+    background-image: url("../images/apink-19.jpg"), linear-gradient(to bottom, rgba(255, 111, 145, 0.6), rgba(0, 0, 0, 0.6))
+    background-blend-mode: overlay
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+#quote
+    font-size: 18px
+    font-family: "Poppins", sans-serif
+
+#quote-artist
+    font-size: 15px
+    font-family: "Noto Sans", sans-serif
+    font-weight: 600
+
+.card-body p
+    font-family: "Noto Sans", sans-serif
+    font-weight: 500
+
+.overlay-info
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    height: 100%
+    width: 100%
+    opacity: 0.9
+    transition: 0.5s ease
+    background-color: black
+
+.mask:hover .overlay-info
+    opacity: 1
+
+.overlay-members
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    height: 100%
+    width: 100%
+    opacity: 0
+    transition: 0.5s ease
+    background-color: black
+
+div .overlay-members
+    font-family: "Montserrat", sans-serif
+    font-weight: 800
+
+.mask:hover .overlay-members
+    opacity: 0.5
+
+.members-name
+    font-size: 3rem
+    position: absolute
+    top: 50%
+    left: 50%
+    text-align: center
+    -webkit-transform: translate(-50%, -50%)
+    -ms-transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)
+
+
+.card-header h5
+    font-family: "Poppins", sans-serif
+    font-weight: 600
+
+#pcr-desc #ybm-desc #jej-desc #sne-desc #knj-desc #ohy-desc
+    position: relative
+
+.list-group-flush .dropdown-item .noto
+    font-family: $noto-sans
+
+.nb-header
+    padding: 0.4rem 0 0.4rem 0
+
+.dropdown-toggle-split
+    border-left: 1px solid black
+    padding: 6px 12px
+
+.btn
+    font-family: "Lato", sans-serif
+    font-weight: 500
+
+.btn-d
+    padding: 6px
+
+.map
+    position: relative
+    overflow: hidden
+    width: 100%
+
+textarea
+    resize: none
+
+@media (max-width: 767px)
+    .navbar-collapse
+        background-color: $pink-2
+        width: 100%
+        padding: 0
